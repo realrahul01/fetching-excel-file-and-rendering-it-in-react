@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 1);
+    padding: 8px 50px;
+}
+
+.right-nav button{
+    padding: 4px 13px;
+}
+
+.container{
+    margin: auto;
+    width: 320px;
+    margin-top: 50px;
+    min-height: 300px;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 1);
+    border-radius: 5px;
+}
+.container h1{
+    text-align: center;
+}
+.cont-int input{
+    padding: 8px 8px;
+    width: 80%;
+}
+.cont-int{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.cont-int button{
+    width: 86%;
+    padding: 10px 30px;
+    background: blue;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+.errorSty{
+    color: red;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.homeSty h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.wifi{
+    font-size: 100px;
+}
+

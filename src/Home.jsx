@@ -19,10 +19,11 @@ const Home = () => {
     window.addEventListener("online", handleOnline);
     window.addEventListener("offline", handleOffline);
 
-    return () => {
-      window.removeEventListener("online", handleOnline);
-      window.removeEventListener("offline", handleOffline);
-    };
+    // online offline functionality is still working without remove event listener
+    // return () => {
+    //   window.removeEventListener("online", handleOnline);
+    //   window.removeEventListener("offline", handleOffline);
+    // };
   }, []);
 
   //   excel export
@@ -59,13 +60,7 @@ const Home = () => {
               onChange={handleFile}
             />
             <br />
-            <table
-              style={{
-                borderCollapse: "collapse",
-                margin: "10px auto",
-                border: "1px solid black",
-              }}
-            >
+            <table style={{ borderCollapse: "collapse", margin: "0px auto" }}>
               <thead>
                 <tr>
                   {header.map((h, index) => (
